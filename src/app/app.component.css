@@ -1,0 +1,44 @@
+.form-control{
+  padding-left: 35%;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.form-control input{
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+/* CSS */
+.form-control button {
+  background-color: #4cbdea;
+  border-radius: 8px;
+  border-style: none;
+  color: #FFFFFF;
+cursor: pointer;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  height: 40px;
+  width: 60px;
+  line-height: 20px;
+   margin-left: 50px;
+    padding: 10px 6px;
+  text-align: center;
+}
+
+.form-control ul{
+    width: 50Px;
+    margin-left: 55px;
+   
+}
+
+.form-control li{
+    font-size: medium;
+    font-weight: 10;
+}

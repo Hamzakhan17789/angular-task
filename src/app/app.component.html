@@ -1,0 +1,18 @@
+
+<form class="form-control">
+<div class="title">
+<h1> {{title}}</h1>
+
+<input id='text' name='text' placeholder="Enter your Subjects"  #subject />
+<br>
+<br>
+<button (click)='$event.preventDefault()'  (click)='addData(subject.value)'>Add</button>
+<button (click)='$event.preventDefault()'  (click)='removeData()'>Remove</button>
+<div>
+<ul *ngFor='let item of list' >
+    <li class="list">{{ item.name}}</li>
+</ul>
+</div>
+</div>
+
+</form>
